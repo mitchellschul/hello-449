@@ -1,0 +1,81 @@
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.company-name{
+    font-size: 40px;
+    color: #424242;
+}
+
+.banner{
+    width: 800px;
+    height: 227px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+
+.content-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+    width: 384px;
+    height: 373px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.light-bg{
+    background-color: #E9EAEC;
+}
+
+.dark-bg{
+    height: 248px;
+    background-color: #424242;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.boxinner{
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+
+.boxinner p{
+    line-height: 1.9;
+}
+
+.jscontent{
+    padding-top: 5px;
+    margin: 0 25px 25px 25px;
+    color: #FFFFFF;
+}
+
+.jscontent p{
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
